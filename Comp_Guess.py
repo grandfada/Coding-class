@@ -6,7 +6,7 @@ def comp_guess(user_data):
     while user_data != var:
         user_data= int(input("Please enter guess number "))
     if user_data == var:
-        print("User number is ", user_data, "Computer guessed", var)
+        print("User number is ", user_data, "Computer guessed ", var)
     else:
         print("User number is ", user_data)
 # Collect data from user
